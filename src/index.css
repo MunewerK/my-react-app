@@ -1,0 +1,93 @@
+header {
+  text-align: center;
+  font-size: 50px;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.838);
+}
+
+.counter {
+  border: 2px solid black;
+  border-radius: 10px;
+  max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.increase-btn {
+  border: 2px black solid;
+  background-color: lightgreen;
+  border-radius: 10px;
+  height: 50px;
+  width: 50%;
+  font-size: large;
+  justify-items: flex-start;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+}
+
+.increase-btn:hover {
+  border-color: white;
+  cursor: pointer;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  font-size: larger;
+  text-decoration: underline;
+  margin-top: 2.5%;
+}
+
+.upgrades {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 5%;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.upg-labels {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: larger;
+  gap: 10px;
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+  text-decoration: underline;
+}
+
+.upgrade-btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 5%;
+}
+
+.upg-btn {
+  border: 2px black solid;
+  background-color: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 25%;
+  font-size: large;
+}
+
+.upg-btn:hover {
+  border-color: red;
+  cursor: pointer;
+}
